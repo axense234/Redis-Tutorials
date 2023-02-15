@@ -1,0 +1,9 @@
+Basics of Redis Test
+
+1.Install Redis
+2.Play around with the Redis Basic Commands
+3.Play around with Expiration Dates
+4.Play around with Lists
+5.Play around with Sets
+6.Play around with Hashes
+7.Play around with an actual Node.js Express.js Application

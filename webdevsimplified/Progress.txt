@@ -1,0 +1,7 @@
+Redis Crash Course by Web Dev Simplified:
+-done Intro
+-done What is Redis
+-done Redis Installation
+-done Basic Redis Commands
+-done Handling Expirations
+-done Lists

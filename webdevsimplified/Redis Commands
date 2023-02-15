@@ -1,0 +1,32 @@
+Redis CLI Commands
+
+-redis-server -> starts up a redis server
+-redis-cli -> starts up a redis cli instance
+
+-SET key value -> sets the key to the value
+-GET key -> gets the value of respective key
+-DEL key -> deletes the respective key
+
+-EXISTS key -> checks if the respective key exists
+-KEYS pattern -> checks all keys that match the pattern
+-flushall -> deletes all keys from redis
+
+-ttl key -> time to expire key
+-expire key seconds -> sets the ttl of the key to the number of seconds
+-SETEX key ttl in seconds value -> sets the key to the value which expires in ttl seconds
+
+-lpush key value -> left push value in the array named key
+-rpush key value -> right push value in the array named key
+-lrange key start end -> gets the list items of the list in a range(do 0,-1 to get all list items)
+-lpop friends -> deletes the left-most item in the array and returns it
+-rpop friends -> deletes the right-most item in the array and returns it
+
+-SADD key value -> adds the value to the set named key
+-SMEMBERS key -> gets all the unique values of the set named key
+-SREM key value -> removes the value in the set named key
+
+-HSET key field value -> sets the field of the key hash(object) to the value
+-HGET key field -> gets the field of the key hash(object)
+-HGETALL key -> gets all the fields of the key hash(object)
+-HDEL key field -> deletes the field of the key hash(object)
+-HEXISTS key field -> checks if the field of key hash(object) exists
